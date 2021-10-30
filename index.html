@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/bfffe3eb07.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<script src="imageBanner.js"></script>
+	
+	<link rel="icon" href="img/icon.png">
+	<title>Casual Studio</title>
+</head>
+
+<body onload = "currentSlide(1)">
+	<div id="home">
+		<a href="index.html"><img src="img/StudioLogo.png" class="IMGcenter" draggable="false"></a>
+		
+		<div class="topnav">
+			<ul>
+			  <li><a href="news.html" draggable="false"><strong>最新消息</strong></a></li>
+			  <li><a href="product.html" draggable="false"><b>遊戲軟件</b></a></li>
+				<li><a href="about.html" draggable="false"><b>關於我們</b></a></li>
+				<li><a href="contact.html" draggable="false"><b>聯絡我們</b></a></li>
+			</ul>
+		</div>	
+		
+		<div class="slideshow-container">
+		    <div class="mySlides fade">
+			    <a href =""><img src="img/testBanner_1.png" style="width:100%" draggable="false"></a>
+		    </div>
+		    <div class="mySlides fade">
+				 <a href =""><img src="img/testBanner_2.png" style="width:100%" draggable="false"></a>
+		  	</div>
+		  	<div class="mySlides fade">
+				 <a href =""><img src="img/testBanner_3.png" style="width:100%" draggable="false"></a>
+		  	</div>
+		  	<div class="mySlides fade">
+				 <a href =""><img src="img/testBanner_4.png" style="width:100%" draggable="false"></a>
+		  	</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+ 		</div>
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		  <span class="dot" onclick="currentSlide(4)"></span>
+		</div>
+	</div>
+	<hr style="margin-top: 15px; border: 1px solid 	#A9A9A9; border-radius: 1px;">
+	
+	<div class="product">
+		<h2>遊戲</h2>
+	</div>
+	
+	<div class="footer">
+		<p><i class="far fa-copyright"></i> Casual Studio <br> <a href="mailto:casualstudio.game@gmail.com">casualstudio.game@gmail.com</a></p>
+	</div>
+</html>
